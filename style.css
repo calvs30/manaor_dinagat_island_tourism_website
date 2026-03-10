@@ -1,0 +1,366 @@
+body{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height:1.7;
+    color:#333;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #004d40, #00796b); 
+    padding: 0.8rem 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, padding 0.3s ease;
+}
+
+.navbar.sticky-top {
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-left: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .nav-link {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+
+.hero{
+    background:url('https://i0.wp.com/joansfootprints.com/wp-content/uploads/2022/05/b12-32-1024x576.jpg?resize=1024%2C576&ssl=1');
+    background-size:cover;
+    background-position:center;
+    height:90vh;
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+
+.hero-overlay{
+    background:rgba(0,0,0,0.55);
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero h1{
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:650px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.explore-btn {
+    background: linear-gradient(90deg, #004d40, #00796b); 
+    padding: 12px 28px;
+    border: none;      
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease; 
+    text-decoration: none;
+    outline: none;            
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.explore-btn:hover,
+.read-more:hover {
+    background: linear-gradient(90deg, #00796b, #004d40); 
+    transform: translateY(-2px);  
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3); 
+    color: #fff; 
+}
+
+.explore-btn:focus,
+.read-more:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 121, 107, 0.5); 
+}
+
+.read-more{
+    background: linear-gradient(90deg, #004d40, #00796b); 
+    padding: 12px 28px;
+    border: none;           
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease; 
+    text-decoration: none;
+    outline: none;          
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+}
+
+
+.section{
+    padding:80px 0;
+}
+
+.section-title{
+    font-weight:700;
+    margin-bottom:20px;
+    position:relative;
+}
+
+.about-section {
+    background:#f8f9fa;
+}
+
+.about-img{
+    transition:0.3s;
+}
+
+.stats-intro p{
+    max-width:700px;
+    margin:auto;
+    color:#555;
+    font-size:1.1rem;
+}
+
+
+.attractions-section{
+    background:#f8f9fa;
+}
+
+.attraction-card{
+    border:none;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+
+
+.activity-box{
+    background:#fff;
+    padding:20px;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.activity-img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-bottom:15px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.carousel-indicators .active {
+    background-color: #004d40;
+}
+
+
+.contact-section{
+    background:#f8f9fa;
+}
+
+.contact-form input,
+.contact-form textarea{
+    border-radius:5px;
+}
+
+.hero-about{
+    background-image:url("https://gttp.images.tshiftcdn.com/494806/x/0/blue-lagoon-in-dinagat-islands");
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    position:relative;
+}
+
+.hero-about-overlay{
+    background:rgba(0,0,0,0.5);
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero-about h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-about p{
+    font-size:1.2rem;
+}
+
+.small-img {
+    margin-top: 10px;
+    height: 200px;        
+    width: 100%;        
+    object-fit: cover;   
+}
+
+.content-section{
+    padding:80px 0;
+}
+
+.section-title{
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:20px;
+    color: #004d40;
+}
+
+.hero-attractions{
+    background-image: url("https://www.vacationhive.com/images/hives/47/47-dinagat-islands-main-banner.jpg");
+    background-size:cover;
+    background-position:center;
+    height:400px;
+    position:relative;
+}
+
+.hero-attractions-overlay{
+    background:rgba(0,0,0,0.5);
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero-attractions h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-attractions p{
+    font-size:1.2rem;
+}
+
+h2 {
+    color: #004d40;
+}
+
+.activity-box-attraction{
+    padding:20px;
+    margin-bottom:20px;
+    transition:0.3s;
+}
+
+.map-container {
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    margin-top: 50px;
+}
+
+.contact-seal {
+    width: 80px;  
+    height: 80px;
+    object-fit: contain;
+}
+
+.separator {
+    border-top: 2px solid #004d40; 
+    width: 80%;
+    margin: 1rem auto; 
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.hero-contacts{
+    background-image:url("https://dinagatislands.com.ph/wp-content/uploads/2023/05/puntavilla.jpg");
+    background-size:cover;
+    background-position:center;
+    height:300px;
+    position:relative;
+}
+
+.hero-contacts-overlay{
+    background:rgba(0,0,0,0.5);
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+}
+
+.hero-contacts h1{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-contacts p{
+    font-size:1.2rem;
+}
+
+.contacts {
+    margin-left: 30px;
+}
+
+.contact-info-contacts p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info-contacts {
+    margin-top: 40px;
+}
+
+.contact-info-contacts a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info-contacts a:hover {
+    text-decoration: underline;
+}
+
+footer{
+background: linear-gradient(90deg, #004d40, #00796b);;
+color:white;
+padding:20px;
+text-align:center;
+}
