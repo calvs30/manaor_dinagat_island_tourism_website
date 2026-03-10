@@ -359,9 +359,16 @@ h2 {
 }
 
 .custom-btn {
-    background-color: linear-gradient(90deg, #004d40, #00796b);
+    background: linear-gradient(90deg, #004d40, #00796b); 
+    padding: 12px 28px;
+    border: none;      
+    border-radius: 50px;
+    font-weight: 600;
     color: white;
-    border: none;
+    transition: all 0.3s ease; 
+    text-decoration: none;
+    outline: none;            
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 footer{
@@ -370,6 +377,7 @@ color:white;
 padding:20px;
 text-align:center;
 }
+
 
 
 
